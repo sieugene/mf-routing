@@ -1,10 +1,10 @@
-import { Button } from "ui";
+import { AppShell } from "ui";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <AppShell title="Hello" />
     </div>
   );
 }
